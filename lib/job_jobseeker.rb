@@ -1,7 +1,6 @@
 require_relative '../config/environment'
 
 class JobJobseeker
-    
     attr_reader :job, :jobseeker
     attr_accessor :matching_skill_count, :matching_skills_percent
 

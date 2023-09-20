@@ -20,5 +20,4 @@ class Jobseeker
     end
 
 
-
 end

@@ -1,5 +1,4 @@
 require 'csv'
-require 'pry'
 require_relative '../config/environment.rb'
 
 class CSVData

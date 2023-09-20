@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-
 require_relative '../config/environment'
 
 # creates job, jobseeker, and job_jobseeker instances from csv files
