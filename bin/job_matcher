@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require_relative '../config/environment'
+
+# creates job, jobseeker, and job_jobseeker instances from csv files
+data = CSVData.new
+data.make_jobs
+data.make_jobseekers
+data.make_job_jobseekers
+
+# sorts and prints job_jobseeker recommendations
+recommendations = RecommendationGenerator.new
+recommendations.recommendation_list
+
